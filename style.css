@@ -1,0 +1,66 @@
+body {
+    background-color: #74279B;
+    background-size: cover;
+    /*display: grid;*/
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.headerAbove {
+    background-image: url('/img/monty-python-50739d06a4177.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff8114;
+    /*background-size: cover;*/
+    margin:0;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+}
+
+ul, li {
+    display: flex;
+    list-style: none;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: seashell;
+    background: #ff8114;
+    color: #ffffff;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+}
+
+main {
+  display: flexbox;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+  font-size: 23px;
+  width: auto;
+  height: 100%;
+}
+
+#formContent {
+  text-align: justify;
+}
