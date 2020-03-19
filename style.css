@@ -1,5 +1,5 @@
 body {
-    background-color: #a33cd8;
+    background-color: #2E2EFF;
     background-size: cover;
     /*display: grid;*/
     height: 100vh;
@@ -23,7 +23,7 @@ img {
 .feedback {
     display: flex;
     justify-content: space-between;
-    background-color: #ff8114;
+    background-color: #2E2EFF;
     /*background-size: cover;*/
     margin:0;
     padding: 3px;
